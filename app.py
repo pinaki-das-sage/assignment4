@@ -15,7 +15,7 @@ fig = go.Figure(go.Bar(
     name="Tax in the country",
     marker={'color':"blue"}
 ))
-fig.update_layout(title='Tax rate by GDP for countries',
+fig.update_layout(title='Tax rate by GDP for countries. Still WIP. Need to figure out how to add the country name on hover.',
                    showlegend=True)
 
 
