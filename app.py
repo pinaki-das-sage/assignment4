@@ -10,8 +10,8 @@ tax2gdp = pd.read_csv('data/tax2gdp.csv')
 tax2gdp2 = tax2gdp[tax2gdp['GDP (In billions)'] < 10000]
 
 fig = go.Figure(go.Bar(
-    x=tax2gdp2["Country"],
-    y=tax2gdp2["Tax"],
+    x=tax2gdp2["Tax Percentage"],
+    y=tax2gdp2["GDP (In billions)"],
     name="Tax in the country",
     marker={'color':"blue"}
 ))
