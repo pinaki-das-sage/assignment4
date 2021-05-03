@@ -32,7 +32,7 @@ app.layout = html.Div(children=[
         id='assignment4',
         figure=fig
     ),
-    html.A('Code on Github', href=githublink),
+    html.A('Code on Github', href="https://github.com/pinaki-das-sage/assignment4"),
     ]
 )
 
