@@ -27,7 +27,7 @@ app.title="Tax rate by GDP of countries"
 
 ########### Set up the layout
 app.layout = html.Div(children=[
-    html.H1(myheading),
+    html.H1("Assignment 4 - Sage DS "),
     dcc.Graph(
         id='assignment4',
         figure=fig
